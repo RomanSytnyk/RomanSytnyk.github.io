@@ -1,0 +1,23 @@
+{
+  "projects": [
+    {
+      "title": "Blur App In Recents",
+      "description": "React Native library for blurring app content in recent apps screen",
+      "url": "https://github.com/RomanSytnyk/blur-app-in-recents",
+      "isAuthor": true
+    },
+    {
+      "title": "SpaceX Launches App",
+      "description": "Open-source app for tracking SpaceX launches schedule",
+      "url": "https://github.com/RomanSytnyk/SpaceX-App-unofficial",
+      "isAuthor": true
+    }
+  ],
+  "contributions": [
+    { "name": "react-native-biometrics", "url": "https://github.com/sbaiahmed1/react-native-biometrics/pull/5" },
+    { "name": "Slidr", "url": "https://github.com/r0adkll/Slidr/pull/75" },
+    { "name": "react-native-image-cache", "url": "https://github.com/georstat/react-native-image-cache/pull/30" },
+    { "name": "SwipeRevealLayout", "url": "https://github.com/chthai64/SwipeRevealLayout/pull/94" },
+    { "name": "react-native-google-places", "url": "https://github.com/amitpdev/react-native-google-places-textinput/pull/32" }
+  ]
+}

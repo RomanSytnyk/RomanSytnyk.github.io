@@ -1,0 +1,69 @@
+[
+  {
+    "icon": "Coffee",
+    "title": "Mobile Developers Weekly Meetups",
+    "description": "Organizing Wrocław Mobile/iOS Sunday Coffee Meeting – weekly offline mobile meetups",
+    "images": [
+      "/images/meetings/1.jpg",
+      "/images/meetings/2.jpg",
+      "/images/meetings/3.JPG",
+      "/images/meetings/4.jpg"
+    ],
+    "text": "- 37 meetings organised by me in 2025, +10 meetups in 2026 by far"
+  },
+  {
+    "icon": "Camera",
+    "title": "Mobile Photography",
+    "description": "Capturing moments through photography",
+    "images": [
+      "/images/photography/1.jpg",
+      "/images/photography/2.jpg",
+      "/images/photography/3.jpg",
+      "/images/photography/4.jpg",
+      "/images/photography/5.jpg",
+      "/images/photography/6.jpg",
+      "/images/photography/7.JPG",
+      "/images/photography/8.jpg",
+      "/images/photography/9.jpg"
+    ],
+    "text": "More pictures on my",
+    "link": "https://www.instagram.com/roman.photo.blog/",
+    "originalsPath": "/original-photos"
+  },
+  {
+    "icon": "GraduationCap",
+    "title": "Philosophy Doctor (PhD) in Computer Science",
+    "description": "PhD · Ukr. State University of Science and Technology (USUST) · 2021–2026",
+    "clickable": false
+  },
+  {
+    "icon": "Dice",
+    "title": "Tabletop RPGs",
+    "description": "Tabletop RPGs like D&D fuel my passion for collaborative storytelling, strategy, and the thrill of bringing characters and worlds to life with every session",
+    "images": [
+      "/images/boardGames/1.jpg",
+      "/images/boardGames/2.JPG",
+      "/images/boardGames/3.JPG"
+    ],
+    "text": "Dungeons & Dragons, Warhammer Fantasy, Cyberpunk Red and more"
+  },
+  {
+    "icon": "Languages",
+    "title": "Languages & Writing",
+    "description": "Passionate about languages and the art of writing, fluently speaking Russian, Ukrainian, Polish, and English, with a growing command of German and Belarusian",
+    "clickable": false
+  },
+    {
+    "icon": "Globe",
+    "title": "Erasmus+ Exchange",
+    "description": "Youth Exchange participant (Cyprus & Poland, 2017-2018)",
+    "images": [
+      "/images/erasmus/1.jpg",
+      "/images/erasmus/2.jpg",
+      "/images/erasmus/3.jpg",
+      "/images/erasmus/4.jpg",
+      "/images/erasmus/5.jpg"
+    ],
+    "text": ""
+  }
+]

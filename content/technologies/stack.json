@@ -1,0 +1,22 @@
+{
+  "technologies": [
+    "React Native",
+    "Expo",
+    "TypeScript",
+    "JavaScript",
+    "Kotlin",
+    "Swift",
+    "Java",
+    "Node.js",
+    "Express",
+    "Web3"
+  ],
+  "tools": [
+    { "emoji": "💻", "name": "React Native/Expo" },
+    { "emoji": "📦", "name": "Android SDK" },
+    { "emoji": "🍎", "name": "SwiftUI & UIKit" },
+    { "emoji": "⚡", "name": "VS Code" },
+    { "emoji": "📱", "name": "XCode" },
+    { "emoji": "🤖", "name": "Android Studio" }
+  ]
+}
