@@ -8,7 +8,7 @@ const MyStory = () => {
   const tags = profileData.tagline.split(" · ");
 
   return (
-    <section id="story" className="px-4 py-16">
+    <section id="story" className="px-4 py-10 md:py-16">
       <div className="container mx-auto max-w-4xl">
         <h1 className="mb-2 text-center text-4xl font-bold tracking-tight text-primary sm:text-5xl md:text-6xl">
           {profileData.name}
@@ -24,8 +24,8 @@ const MyStory = () => {
           </div>
         )}
         
-        <div className="flex flex-col md:flex-row gap-6 items-center md:items-start">
-          <div className="w-[12rem] h-[12rem] rounded-full flex-shrink-0 border-2 border-border overflow-hidden bg-muted">
+        <div className="flex flex-col md:flex-row gap-4 md:gap-6 items-center md:items-start">
+          <div className="w-[8rem] h-[8rem] md:w-[12rem] md:h-[12rem] rounded-full flex-shrink-0 border-2 border-border overflow-hidden bg-muted">
             <img 
               src="/avatar.jpg" 
               alt="Profile" 
@@ -35,8 +35,8 @@ const MyStory = () => {
               }}
             />
           </div>
-          <div className="flex-1">
-            <div className="leading-relaxed text-foreground text-lg">
+          <div className="flex-1 text-center md:text-left">
+            <div className="leading-relaxed text-foreground text-base md:text-lg">
               {storyData.intro.split('\n').map((line, index) => (
                 <p key={index} className="mb-2">
                   {index === 0 ? (
@@ -51,7 +51,7 @@ const MyStory = () => {
               ))}
             </div>
             
-            <div className="mt-4 flex flex-wrap gap-2">
+            <div className="mt-4 flex flex-wrap justify-center md:justify-start gap-2">
               {tags.map((tag, index) => (
                 <span 
                   key={index}
@@ -62,7 +62,7 @@ const MyStory = () => {
               ))}
             </div>
             
-            <div className="mt-6 flex flex-wrap items-center gap-2">
+            <div className="mt-6 flex flex-wrap items-center justify-center md:justify-start gap-2">
               <Button
                 variant="ghost"
                 size="icon"

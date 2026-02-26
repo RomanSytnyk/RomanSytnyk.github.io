@@ -54,8 +54,8 @@ const PhotoGallery = ({ images, title, originalsPath }: PhotoGalleryProps) => {
                 </div>
               </button>
             </DialogTrigger>
-              <DialogContent className="max-w-4xl p-0">
-                <div className="relative flex items-center justify-center min-h-[50vh] max-h-[80vh]">
+              <DialogContent className="max-w-[95vw] sm:max-w-4xl p-0">
+                <div className="relative flex items-center justify-center min-h-[40vh] max-h-[85vh] sm:min-h-[50vh] sm:max-h-[80vh]">
                   <div className="flex items-center justify-center w-full h-full">
                     <img
                       src={selectedImage || image}
@@ -69,7 +69,7 @@ const PhotoGallery = ({ images, title, originalsPath }: PhotoGalleryProps) => {
                   </div>
                   <div className="absolute inset-0 flex items-center justify-between px-4">
                     <button
-                      className="bg-black/50 text-white rounded-full p-2 hover:bg-black/70 transition-all"
+                      className="bg-black/50 text-white rounded-full p-3 min-w-[44px] min-h-[44px] flex items-center justify-center hover:bg-black/70 transition-all"
                       onClick={(e) => {
                         e.stopPropagation();
                         navigateImage("prev");
@@ -78,7 +78,7 @@ const PhotoGallery = ({ images, title, originalsPath }: PhotoGalleryProps) => {
                       ‹
                     </button>
                     <button
-                      className="bg-black/50 text-white rounded-full p-2 hover:bg-black/70 transition-all"
+                      className="bg-black/50 text-white rounded-full p-3 min-w-[44px] min-h-[44px] flex items-center justify-center hover:bg-black/70 transition-all"
                       onClick={(e) => {
                         e.stopPropagation();
                         navigateImage("next");

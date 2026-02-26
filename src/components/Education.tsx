@@ -3,15 +3,15 @@ import educationData from "../../content/education/education.json";
 
 const Education = () => {
   return (
-    <section id="education" className="px-4 py-16">
+    <section id="education" className="px-4 py-10 md:py-16">
       <div className="container mx-auto max-w-3xl">
-        <h2 className="mb-8 text-center text-2xl font-semibold text-primary">
+        <h2 className="mb-8 text-center text-xl sm:text-2xl font-semibold text-primary">
           🎓 Education
         </h2>
         
         <div className="space-y-4">
           {educationData.map((edu, index) => (
-            <div key={index} className="rounded-lg border border-border bg-card p-6">
+            <div key={index} className="rounded-lg border border-border bg-card p-4 sm:p-6">
               <div className="flex items-start gap-4">
                 <GraduationCap className="mt-1 h-6 w-6 flex-shrink-0 text-primary" />
                 <div>

@@ -49,12 +49,12 @@ const BeyondWork = () => {
             
             const cardContent = (
               <div 
-                className={`group flex items-center gap-4 rounded-lg border border-border bg-card p-4 transition-all duration-300 ${isClickable ? 'hover:border-primary/50 hover:shadow-glow cursor-pointer' : ''}`}
+                className={`group flex items-center gap-3 sm:gap-4 rounded-lg border border-border bg-card p-2.5 sm:p-4 transition-all duration-300 ${isClickable ? 'hover:border-primary/50 hover:shadow-glow cursor-pointer' : ''}`}
               >
                 <IconComponent className={`h-5 w-5 flex-shrink-0 text-muted-foreground transition-colors ${isClickable ? 'group-hover:text-primary' : ''}`} />
                 <div className="flex-1">
-                  <h3 className="font-medium text-foreground">{interest.title}</h3>
-                  <p className="text-sm text-muted-foreground">{interest.description}</p>
+                  <h3 className="text-sm sm:text-base font-medium text-foreground">{interest.title}</h3>
+                  <p className="text-xs sm:text-sm text-muted-foreground">{interest.description}</p>
                 </div>
                 {isClickable && (
                   <ChevronDown className={`h-4 w-4 text-muted-foreground transition-transform duration-300 ${isOpen ? 'rotate-180' : ''}`} />

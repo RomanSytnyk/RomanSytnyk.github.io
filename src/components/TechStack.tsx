@@ -2,9 +2,9 @@ import stackData from "../../content/technologies/stack.json";
 
 const TechStack = () => {
   return (
-    <section id="tech-stack" className="px-4 py-16">
+    <section id="tech-stack" className="px-4 py-10 md:py-16">
       <div className="container mx-auto max-w-4xl">
-        <h2 className="mb-8 text-center text-2xl font-semibold text-primary">
+        <h2 className="mb-8 text-center text-xl sm:text-2xl font-semibold text-primary">
           Tech Stack
         </h2>
         

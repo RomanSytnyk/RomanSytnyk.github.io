@@ -3,9 +3,9 @@ import projectsData from "../../content/projects/projects.json";
 
 const OpenSource = () => {
   return (
-    <section id="open-source" className="px-4 py-16">
+    <section id="open-source" className="px-4 py-10 md:py-16">
       <div className="container mx-auto max-w-3xl">
-        <h2 className="mb-8 text-center text-2xl font-semibold text-primary">
+        <h2 className="mb-8 text-center text-xl sm:text-2xl font-semibold text-primary">
           🚀 Contributions
         </h2>
         
@@ -16,7 +16,7 @@ const OpenSource = () => {
               href={project.url}
               target="_blank"
               rel="noopener noreferrer"
-              className="group flex gap-4 rounded-lg border border-border bg-card p-5 transition-all duration-300 hover:border-primary/50 hover:shadow-glow"
+              className="group flex gap-4 rounded-lg border border-border bg-card p-3 sm:p-5 transition-all duration-300 hover:border-primary/50 hover:shadow-glow"
             >
               <Github className="mt-1 h-5 w-5 flex-shrink-0 text-muted-foreground transition-colors group-hover:text-primary" />
               
