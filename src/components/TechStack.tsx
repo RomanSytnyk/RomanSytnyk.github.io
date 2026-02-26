@@ -12,7 +12,7 @@ const TechStack = () => {
           {stackData.technologies.map((tech) => (
             <span 
               key={tech}
-              className="rounded-md border border-border bg-card px-3 py-1.5 text-sm text-foreground transition-colors hover:border-primary/50 hover:text-primary"
+              className="rounded-md border border-border bg-card px-4 py-1.5 text-sm text-foreground transition-colors hover:border-primary/50 hover:text-primary"
             >
               {tech}
             </span>
