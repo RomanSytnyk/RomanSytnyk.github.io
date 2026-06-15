@@ -9,7 +9,7 @@ const MyStory = () => {
 
   return (
     <section id="story" className="px-4 py-10 md:py-16">
-      <div className="container mx-auto max-w-3xl">
+      <div className="container mx-auto max-w-5xl">
         <h1 className="mb-2 text-center text-4xl font-bold tracking-tight text-primary sm:text-5xl md:text-6xl">
           {profileData.name}
         </h1>
@@ -44,8 +44,7 @@ const MyStory = () => {
                 <p key={index} className="mb-2">
                   {index === 0 ? (
                     <>
-                      <strong>Software engineer specializing in Mobile Development</strong>
-                      {line.replace('Software engineer specializing in Mobile Development', '')}
+                      <strong>Software Engineer specializing in Mobile Applications</strong>
                     </>
                   ) : (
                     line
