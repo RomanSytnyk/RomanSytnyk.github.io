@@ -18,6 +18,7 @@
     { "name": "Slidr", "url": "https://github.com/r0adkll/Slidr/pull/75" },
     { "name": "react-native-image-cache", "url": "https://github.com/georstat/react-native-image-cache/pull/30" },
     { "name": "SwipeRevealLayout", "url": "https://github.com/chthai64/SwipeRevealLayout/pull/94" },
-    { "name": "react-native-google-places", "url": "https://github.com/amitpdev/react-native-google-places-textinput/pull/32" }
+    { "name": "react-native-google-places", "url": "https://github.com/amitpdev/react-native-google-places-textinput/pull/32" },
+    { "name": "analytics-react-native", "url": "https://github.com/segmentio/analytics-react-native/pull/1146" }
   ]
 }

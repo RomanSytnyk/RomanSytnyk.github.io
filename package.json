@@ -5,13 +5,15 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "vite build && cp dist/index.html dist/404.html",
     "build:dev": "vite build --mode development",
     "lint": "eslint .",
     "preview": "vite preview",
+    "thumbs": "node scripts/generate-thumbs.mjs",
     "knip": "knip --fix"
   },
   "dependencies": {
+    "@fontsource/jetbrains-mono": "^5.2.8",
     "@radix-ui/react-collapsible": "^1.1.11",
     "@radix-ui/react-dialog": "^1.1.14",
     "@radix-ui/react-slot": "^1.2.3",
@@ -49,6 +51,7 @@
     "globals": "^15.15.0",
     "knip": "^5.85.0",
     "postcss": "^8.5.6",
+    "sharp": "^0.35.1",
     "tailwindcss": "^3.4.17",
     "typescript": "^5.8.3",
     "typescript-eslint": "^8.38.0",

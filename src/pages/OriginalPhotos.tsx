@@ -14,12 +14,9 @@ const originalImages = [
 
 const OriginalPhotos = () => {
   const getPreviewUrl = (filename: string) => {
-    // For HEIC files, use the pre-converted JPG version
-    if (filename.endsWith('.HEIC')) {
-      return `/images/photography/${filename.replace('.HEIC', '.jpg')}`;
-    }
-    // For JPG files, use the original
-    return `/images/photography/${filename}`;
+    // Previews use the small 800px WebP thumbnails (see scripts/generate-thumbs.mjs)
+    const baseName = filename.replace(/\.(HEIC|JPG|jpg)$/, '');
+    return `/images/photography/thumbs/${baseName}.webp`;
   };
 
   const getDownloadUrl = (filename: string) => {

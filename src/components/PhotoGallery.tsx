@@ -7,6 +7,11 @@ interface PhotoGalleryProps {
   originalsPath?: string;
 }
 
+// Small 800px WebP previews generated next to the originals in a thumbs/
+// folder (see scripts/generate-thumbs.mjs)
+const getThumbUrl = (image: string) =>
+  image.replace(/\/([^/]+)\.jpe?g$/i, "/thumbs/$1.webp");
+
 const PhotoGallery = ({ images, title, originalsPath }: PhotoGalleryProps) => {
   const [selectedImage, setSelectedImage] = useState<string | null>(null);
   const [currentIndex, setCurrentIndex] = useState<number>(0);
@@ -42,7 +47,7 @@ const PhotoGallery = ({ images, title, originalsPath }: PhotoGalleryProps) => {
               >
                 <div className="aspect-square overflow-hidden">
                   <img
-                    src={image}
+                    src={getThumbUrl(image)}
                     alt={`${title} - Photo ${index + 1}`}
                     className="w-full h-full object-cover"
                     loading="lazy"

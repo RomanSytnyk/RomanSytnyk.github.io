@@ -6,7 +6,7 @@ import profileData from "../../content/profile/main.json";
 const Footer = () => {
   return (
     <footer className="px-4 py-10 md:py-16">
-      <div className="container mx-auto max-w-2xl">
+      <div className="container mx-auto max-w-3xl">
         <div className="rounded-lg border border-border bg-card p-5 sm:p-8 text-center">
           <h2 className="mb-2 text-xl sm:text-2xl font-semibold text-primary">
             Let's Connect 👋

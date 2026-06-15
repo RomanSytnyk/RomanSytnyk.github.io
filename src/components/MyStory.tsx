@@ -9,7 +9,7 @@ const MyStory = () => {
 
   return (
     <section id="story" className="px-4 py-10 md:py-16">
-      <div className="container mx-auto max-w-4xl">
+      <div className="container mx-auto max-w-3xl">
         <h1 className="mb-2 text-center text-4xl font-bold tracking-tight text-primary sm:text-5xl md:text-6xl">
           {profileData.name}
         </h1>
@@ -26,9 +26,12 @@ const MyStory = () => {
         
         <div className="flex flex-col md:flex-row gap-4 md:gap-6 items-center md:items-start">
           <div className="w-[8rem] h-[8rem] md:w-[12rem] md:h-[12rem] rounded-full flex-shrink-0 border-2 border-border overflow-hidden bg-muted">
-            <img 
-              src="/avatar.jpg" 
-              alt="Profile" 
+            <img
+              src="/avatar.jpg"
+              alt="Roman Sytnyk"
+              width={384}
+              height={384}
+              fetchPriority="high"
               className="w-full h-full object-cover"
               onError={(e) => {
                 (e.target as HTMLImageElement).src = '/placeholder.svg';
